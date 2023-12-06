@@ -73,3 +73,31 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+/* Apply flexbox to the parent container */
+.info {
+    display: flex;
+    justify-content: space-between; /* Adjust this property based on your design needs */
+    align-items: center; /* Center items vertically */
+
+    /* Optional: Add padding or margin for spacing */
+    padding: 20px;
+}
+
+/* Style for the image container */
+.info-image {
+    /* Set a maximum width for the image */
+    max-width: 500px; /* Adjust the value based on your design needs */
+}
+
+/* Style for the image inside the container */
+.info-image img {
+    width: 100%; /* Make the image responsive within its container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Style for the text container */
+.info-desc {
+    /* Optional: Add padding or margin for spacing */
+    padding-left: 20px;
+    /* Optional: Adjust the width or other styles */
+}
